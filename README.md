@@ -16,5 +16,5 @@ int is_local_git(char *path);
 
 ### Language
 ```c
-enum lang get_lang(char *path);
+enum LANG get_lang(char *path);
 ```
