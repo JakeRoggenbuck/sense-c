@@ -5,6 +5,8 @@ Sense the directories around you, are they git repositories, what language, etc.
 [ :snake: sense-py](https://github.com/JakeRoggenbuck/sense-py) || [:crab: sense-rs](https://github.com/JakeRoggenbuck/sense-rs) || 
 [:hamster: sense-go](https://github.com/JakeRoggenbuck/sense-go) || [🇨 sense-c](https://github.com/JakeRoggenbuck/sense-c) || [🔥 sense-cpp](https://github.com/JakeRoggenbuck/sense-cpp)
 
+## API
+
 ### Git
 
 ```c
