@@ -15,7 +15,7 @@ int is_local_git(char *path);
 [git.h](https://github.com/JakeRoggenbuck/sense-c/blob/main/src/git.h)
 
 ### Language
-```
+```c
 enum lang get_lang(char *path);
 
 ```
