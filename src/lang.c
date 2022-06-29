@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include "lang.h"
 
 int has_sub_file(char *path, char *sub) {
     char sub_path[60];

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include "git.h"
 
 int has_git(char *path) {
     char git_path[60];
