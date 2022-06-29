@@ -4,8 +4,7 @@
 
 int main() {
     int lang = get_lang("./");
-    /* char *name = LANG_NAMES[lang]; */
-    /* printf("%s\n", name); */
+    printf("%s\n", get_lang_name(lang));
 
 	int git = has_git("./");
 	if (git) {

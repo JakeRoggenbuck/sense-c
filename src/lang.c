@@ -1,7 +1,7 @@
+#include "lang.h"
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-#include "lang.h"
 
 int has_sub_file(char *path, char *sub) {
     char sub_path[60];
@@ -9,6 +9,11 @@ int has_sub_file(char *path, char *sub) {
     strcat(sub_path, sub);
 
     return access(sub_path, F_OK) == 0;
+}
+
+char *get_lang_name(int lang) {
+    char *LANG_NAMES[7] = {"Python", "Rust", "Java", "JavaScript", "Go", "None"};
+    return LANG_NAMES[lang];
 }
 
 enum LANG get_lang(char *path) {
