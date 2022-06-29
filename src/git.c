@@ -1,7 +1,7 @@
+#include "git.h"
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-#include "git.h"
 
 int has_git(char *path) {
     char git_path[60];
@@ -12,6 +12,10 @@ int has_git(char *path) {
 }
 
 int is_local_git(char *path) {
+    if (!has_git(path)) {
+        return 0;
+    }
+
     char git_path[60];
     FILE *fp;
     char buffer[255];

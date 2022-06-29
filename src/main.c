@@ -14,5 +14,12 @@ int main() {
 		printf("Is not git.\n");
 	}
 
+	int local = is_local_git("./");
+	if (local) {
+		printf("Is local!\n");
+	} else {
+		printf("Is not local.\n");
+	}
+
     return 0;
 }
