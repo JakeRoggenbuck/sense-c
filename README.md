@@ -1,8 +1,8 @@
 # sense-c
 Sense the directories around you, are they git repositories, what language, etc.
 
-[sense-py](https://github.com/JakeRoggenbuck/sense-py) [sense-rs](https://github.com/JakeRoggenbuck/sense-rs) 
-[sense-go](https://github.com/JakeRoggenbuck/sense-go) [sense-c](https://github.com/JakeRoggenbuck/sense-c)  [sense-cpp](https://github.com/JakeRoggenbuck/sense-cpp)
+[sense-py](https://github.com/JakeRoggenbuck/sense-py) || [sense-rs](https://github.com/JakeRoggenbuck/sense-rs) || 
+[sense-go](https://github.com/JakeRoggenbuck/sense-go) || [sense-c](https://github.com/JakeRoggenbuck/sense-c) || [sense-cpp](https://github.com/JakeRoggenbuck/sense-cpp)
 
 ### Git
 
